@@ -1,5 +1,5 @@
-resource "aws_security_group" "allow_tls" {
-  name        = "allow_tls"
+resource "aws_security_group" "SRIBALAJE" {
+  name        = "SRIBALAJE"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0ecb8efae22cc9cb0"
 
@@ -29,6 +29,6 @@ resource "aws_security_group" "allow_tls" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "SRIBALAJE"
   }
 }
